@@ -3,6 +3,8 @@ chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
         if( details.url.includes("web.whatsapp.com/bootstrap_main.017dfe9255194fc7244c.js") )
             return {redirectUrl:  chrome.extension.getURL("injected.js") };
+        if (details.url.includes("web.whatsapp.com/serviceworker.js"))
+            return {redirectUrl:  chrome.extension.getURL("serviceworker.js") };
 
     },
     {urls: ["http://*/*", "https://*/*"]}, ["blocking"]);

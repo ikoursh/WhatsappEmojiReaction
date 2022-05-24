@@ -17,6 +17,7 @@
     "*://*/*"
   ],
   "web_accessible_resources": [
-    "injected.js"
+    "injected.js",
+    "serviceworker.js"
   ]
 }
