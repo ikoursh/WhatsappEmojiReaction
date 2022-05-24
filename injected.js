@@ -1216,7 +1216,7 @@
         "use strict";
         var n = a(95318);
         Object.defineProperty(t, "__esModule", {value: !0}), t.sendReactionToMsg = function () {
-            x[1] = prompt("Coppy Paste Emoji Here");
+            arguments[1] = prompt("Coppy Paste Emoji Here");
             return x.apply(this, arguments)
         };
         var r = n(a(48926)), i = a(24674), s = a(35470), o = a(40234), l = n(a(65212)), u = a(67811), d = a(78820),
