@@ -4,10 +4,6 @@
 1. Go to `chrome://extensions` and drag your cloned dir there.
 2. Wipe chrome history/cache/cookies etc if needed.
 
-# Bugs
-* Reactions sometimes don't display correctly on browser, but they do on the phone afterwards.
-
-* Page reloads may cause the extension to stop working. Fix this by wiping chrome history/cache/cookies etc.
 
 # IMPORTANT
 **I take no responsibility for any damage caused by using this extension.**
